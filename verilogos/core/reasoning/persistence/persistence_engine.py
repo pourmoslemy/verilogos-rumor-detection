@@ -40,10 +40,15 @@ class PersistenceEngine:
     """
     Reasoning-layer persistence API.
 
+    Accepts both SimplicialComplex and Filtration objects.
+    
     Returns stable, legacy-compatible outputs:
-    - compute_diagram(sc) -> List[PersistenceInterval]
-    - compute_barcodes(sc) -> Dict[int, List[(birth, death_or_None)]]
-    - compute_score(sc) -> float
+    - compute_diagram(obj) -> List[PersistenceInterval]
+      where obj can be:
+        * SimplicialComplex (with .simplices dict)
+        * Filtration (with .steps list)
+    - compute_barcodes(obj) -> Dict[int, List[(birth, death_or_None)]]
+    - compute_score(obj) -> float
     - compute_entropy(sc) -> Dict[int, float]
     """
 
@@ -94,7 +99,18 @@ class PersistenceEngine:
         return {}
 
     def compute_diagram(self, obj: Any) -> List[PersistenceInterval]:
+        """
+        Compute persistence diagram from SimplicialComplex or Filtration.
+        
+        Args:
+            obj: Either a SimplicialComplex (with .simplices dict) or
+                 a Filtration (with .steps list of subcomplexes)
+        
+        Returns:
+            List of PersistenceInterval objects
+        """
         grouped = self._extract_grouped(obj)
+        
         if not grouped:
             return []
 

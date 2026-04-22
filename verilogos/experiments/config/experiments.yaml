@@ -1,0 +1,70 @@
+# VeriLogos Experiment Configuration
+# Author: Alireza Pourmoslemi
+
+# Datasets to evaluate
+datasets:
+  - FakeNewsNet
+  - LIAR
+  - PHEME
+
+# Models to test
+models:
+  - LogisticRegression
+  - RandomForest
+  - SVM
+  - XGBoost
+  - VeriLogosTopology
+  - Hybrid
+
+# Ablation study parameters
+ablations:
+  topology: [true, false]
+  text: [true, false]
+
+# Data paths (optional - will use synthetic data if not provided)
+data_paths:
+  fakenewsnet: null  # Set to actual path if available
+  liar: null
+  pheme: null
+
+# Parallel execution settings
+parallel:
+  max_workers: 4  # Number of parallel workers
+  batch_size: 10  # Batch size for memory management
+
+# Feature extraction settings
+features:
+  topology:
+    similarity_threshold: 0.3
+    max_dimension: 2
+  text:
+    max_features: 1000
+    ngram_range: [1, 2]
+
+# Model hyperparameters
+model_params:
+  RandomForest:
+    n_estimators: 100
+    max_depth: null
+  XGBoost:
+    n_estimators: 100
+    learning_rate: 0.1
+  SVM:
+    kernel: rbf
+    C: 1.0
+
+# Train/val/test split ratios
+split_ratios:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+
+# Random seed for reproducibility
+random_seed: 42
+
+# Output settings
+output:
+  results_dir: results
+  save_plots: true
+  save_models: false
+  export_csv: true

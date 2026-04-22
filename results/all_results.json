@@ -1,0 +1,1226 @@
+[
+  {
+    "status": "success",
+    "task_id": 0,
+    "dataset": "FakeNewsNet",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 0,
+    "duration": 7.7869744300842285
+  },
+  {
+    "status": "success",
+    "task_id": 1,
+    "dataset": "FakeNewsNet",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 1,
+    "duration": 7.749963045120239
+  },
+  {
+    "status": "success",
+    "task_id": 2,
+    "dataset": "FakeNewsNet",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 2,
+    "duration": 1.1520957946777344
+  },
+  {
+    "status": "success",
+    "task_id": 3,
+    "dataset": "FakeNewsNet",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 3,
+    "duration": 6.138322591781616
+  },
+  {
+    "status": "success",
+    "task_id": 4,
+    "dataset": "FakeNewsNet",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 4,
+    "duration": 0.7563905715942383
+  },
+  {
+    "status": "success",
+    "task_id": 5,
+    "dataset": "FakeNewsNet",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 5,
+    "duration": 0.6949098110198975
+  },
+  {
+    "status": "success",
+    "task_id": 6,
+    "dataset": "FakeNewsNet",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 6,
+    "duration": 0.6250672340393066
+  },
+  {
+    "status": "success",
+    "task_id": 7,
+    "dataset": "FakeNewsNet",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 7,
+    "duration": 0.7280862331390381
+  },
+  {
+    "status": "success",
+    "task_id": 8,
+    "dataset": "FakeNewsNet",
+    "model": "SVM",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 8,
+    "duration": 0.1818864345550537
+  },
+  {
+    "status": "success",
+    "task_id": 9,
+    "dataset": "FakeNewsNet",
+    "model": "SVM",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.5,
+    "task_idx": 9,
+    "duration": 0.18458986282348633
+  },
+  {
+    "status": "success",
+    "task_id": 10,
+    "dataset": "FakeNewsNet",
+    "model": "SVM",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 10,
+    "duration": 0.06895732879638672
+  },
+  {
+    "status": "success",
+    "task_id": 11,
+    "dataset": "FakeNewsNet",
+    "model": "SVM",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.5,
+    "task_idx": 11,
+    "duration": 0.16589641571044922
+  },
+  {
+    "status": "success",
+    "task_id": 12,
+    "dataset": "FakeNewsNet",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 12,
+    "duration": 0.343151330947876
+  },
+  {
+    "status": "success",
+    "task_id": 13,
+    "dataset": "FakeNewsNet",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 13,
+    "duration": 0.2182292938232422
+  },
+  {
+    "status": "success",
+    "task_id": 14,
+    "dataset": "FakeNewsNet",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 14,
+    "duration": 0.16526222229003906
+  },
+  {
+    "status": "success",
+    "task_id": 15,
+    "dataset": "FakeNewsNet",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 15,
+    "duration": 0.18488264083862305
+  },
+  {
+    "status": "success",
+    "task_id": 16,
+    "dataset": "FakeNewsNet",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 16,
+    "duration": 0.6476130485534668
+  },
+  {
+    "status": "success",
+    "task_id": 17,
+    "dataset": "FakeNewsNet",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 17,
+    "duration": 0.638622522354126
+  },
+  {
+    "status": "success",
+    "task_id": 18,
+    "dataset": "FakeNewsNet",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 18,
+    "duration": 0.6186337471008301
+  },
+  {
+    "status": "success",
+    "task_id": 19,
+    "dataset": "FakeNewsNet",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 19,
+    "duration": 0.6927852630615234
+  },
+  {
+    "status": "success",
+    "task_id": 20,
+    "dataset": "FakeNewsNet",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 20,
+    "duration": 0.7067761421203613
+  },
+  {
+    "status": "success",
+    "task_id": 21,
+    "dataset": "FakeNewsNet",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 21,
+    "duration": 0.6707990169525146
+  },
+  {
+    "status": "success",
+    "task_id": 22,
+    "dataset": "FakeNewsNet",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 22,
+    "duration": 0.6157264709472656
+  },
+  {
+    "status": "success",
+    "task_id": 23,
+    "dataset": "FakeNewsNet",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 23,
+    "duration": 0.668088436126709
+  },
+  {
+    "status": "success",
+    "task_id": 24,
+    "dataset": "LIAR",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 24,
+    "duration": 0.16640686988830566
+  },
+  {
+    "status": "success",
+    "task_id": 25,
+    "dataset": "LIAR",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 25,
+    "duration": 0.16889452934265137
+  },
+  {
+    "status": "success",
+    "task_id": 26,
+    "dataset": "LIAR",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 26,
+    "duration": 0.06750845909118652
+  },
+  {
+    "status": "success",
+    "task_id": 27,
+    "dataset": "LIAR",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 27,
+    "duration": 0.09918642044067383
+  },
+  {
+    "status": "success",
+    "task_id": 28,
+    "dataset": "LIAR",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 28,
+    "duration": 0.5514681339263916
+  },
+  {
+    "status": "success",
+    "task_id": 29,
+    "dataset": "LIAR",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 29,
+    "duration": 0.5252399444580078
+  },
+  {
+    "status": "success",
+    "task_id": 30,
+    "dataset": "LIAR",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 30,
+    "duration": 0.4780759811401367
+  },
+  {
+    "status": "success",
+    "task_id": 31,
+    "dataset": "LIAR",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 31,
+    "duration": 0.590078592300415
+  },
+  {
+    "status": "success",
+    "task_id": 32,
+    "dataset": "LIAR",
+    "model": "SVM",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 32,
+    "duration": 0.11963319778442383
+  },
+  {
+    "status": "success",
+    "task_id": 33,
+    "dataset": "LIAR",
+    "model": "SVM",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.5,
+    "task_idx": 33,
+    "duration": 0.10460114479064941
+  },
+  {
+    "status": "success",
+    "task_id": 34,
+    "dataset": "LIAR",
+    "model": "SVM",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 34,
+    "duration": 0.04366183280944824
+  },
+  {
+    "status": "success",
+    "task_id": 35,
+    "dataset": "LIAR",
+    "model": "SVM",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.5,
+    "task_idx": 35,
+    "duration": 0.12216472625732422
+  },
+  {
+    "status": "success",
+    "task_id": 36,
+    "dataset": "LIAR",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 36,
+    "duration": 0.18439245223999023
+  },
+  {
+    "status": "success",
+    "task_id": 37,
+    "dataset": "LIAR",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 37,
+    "duration": 0.15066909790039062
+  },
+  {
+    "status": "success",
+    "task_id": 38,
+    "dataset": "LIAR",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 38,
+    "duration": 0.11667585372924805
+  },
+  {
+    "status": "success",
+    "task_id": 39,
+    "dataset": "LIAR",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 39,
+    "duration": 0.15155887603759766
+  },
+  {
+    "status": "success",
+    "task_id": 40,
+    "dataset": "LIAR",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 40,
+    "duration": 0.5983366966247559
+  },
+  {
+    "status": "success",
+    "task_id": 41,
+    "dataset": "LIAR",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 41,
+    "duration": 0.5596511363983154
+  },
+  {
+    "status": "success",
+    "task_id": 42,
+    "dataset": "LIAR",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 42,
+    "duration": 0.49660730361938477
+  },
+  {
+    "status": "success",
+    "task_id": 43,
+    "dataset": "LIAR",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 43,
+    "duration": 0.5425350666046143
+  },
+  {
+    "status": "success",
+    "task_id": 44,
+    "dataset": "LIAR",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 44,
+    "duration": 0.5526049137115479
+  },
+  {
+    "status": "success",
+    "task_id": 45,
+    "dataset": "LIAR",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 45,
+    "duration": 0.5226249694824219
+  },
+  {
+    "status": "success",
+    "task_id": 46,
+    "dataset": "LIAR",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 46,
+    "duration": 0.5160980224609375
+  },
+  {
+    "status": "success",
+    "task_id": 47,
+    "dataset": "LIAR",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 47,
+    "duration": 0.5779480934143066
+  },
+  {
+    "status": "success",
+    "task_id": 48,
+    "dataset": "PHEME",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 48,
+    "duration": 0.10989880561828613
+  },
+  {
+    "status": "success",
+    "task_id": 49,
+    "dataset": "PHEME",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 49,
+    "duration": 0.11269092559814453
+  },
+  {
+    "status": "success",
+    "task_id": 50,
+    "dataset": "PHEME",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 50,
+    "duration": 0.05505943298339844
+  },
+  {
+    "status": "success",
+    "task_id": 51,
+    "dataset": "PHEME",
+    "model": "LogisticRegression",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 51,
+    "duration": 0.11246204376220703
+  },
+  {
+    "status": "success",
+    "task_id": 52,
+    "dataset": "PHEME",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 52,
+    "duration": 0.5613632202148438
+  },
+  {
+    "status": "success",
+    "task_id": 53,
+    "dataset": "PHEME",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 53,
+    "duration": 0.5438170433044434
+  },
+  {
+    "status": "success",
+    "task_id": 54,
+    "dataset": "PHEME",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 54,
+    "duration": 0.49855709075927734
+  },
+  {
+    "status": "success",
+    "task_id": 55,
+    "dataset": "PHEME",
+    "model": "RandomForest",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 55,
+    "duration": 0.6229524612426758
+  },
+  {
+    "status": "success",
+    "task_id": 56,
+    "dataset": "PHEME",
+    "model": "SVM",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 56,
+    "duration": 0.12476134300231934
+  },
+  {
+    "status": "success",
+    "task_id": 57,
+    "dataset": "PHEME",
+    "model": "SVM",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.5,
+    "task_idx": 57,
+    "duration": 0.11195731163024902
+  },
+  {
+    "status": "success",
+    "task_id": 58,
+    "dataset": "PHEME",
+    "model": "SVM",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 58,
+    "duration": 0.0539402961730957
+  },
+  {
+    "status": "success",
+    "task_id": 59,
+    "dataset": "PHEME",
+    "model": "SVM",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.5,
+    "task_idx": 59,
+    "duration": 0.10845088958740234
+  },
+  {
+    "status": "success",
+    "task_id": 60,
+    "dataset": "PHEME",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 60,
+    "duration": 0.16889715194702148
+  },
+  {
+    "status": "success",
+    "task_id": 61,
+    "dataset": "PHEME",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 61,
+    "duration": 0.1495499610900879
+  },
+  {
+    "status": "success",
+    "task_id": 62,
+    "dataset": "PHEME",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 62,
+    "duration": 0.11865592002868652
+  },
+  {
+    "status": "success",
+    "task_id": 63,
+    "dataset": "PHEME",
+    "model": "XGBoost",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 63,
+    "duration": 0.15264153480529785
+  },
+  {
+    "status": "success",
+    "task_id": 64,
+    "dataset": "PHEME",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 64,
+    "duration": 0.5767099857330322
+  },
+  {
+    "status": "success",
+    "task_id": 65,
+    "dataset": "PHEME",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 65,
+    "duration": 0.5633068084716797
+  },
+  {
+    "status": "success",
+    "task_id": 66,
+    "dataset": "PHEME",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 66,
+    "duration": 0.5195701122283936
+  },
+  {
+    "status": "success",
+    "task_id": 67,
+    "dataset": "PHEME",
+    "model": "VeriLogosTopology",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 67,
+    "duration": 0.5544998645782471
+  },
+  {
+    "status": "success",
+    "task_id": 68,
+    "dataset": "PHEME",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": true,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 68,
+    "duration": 0.5748090744018555
+  },
+  {
+    "status": "success",
+    "task_id": 69,
+    "dataset": "PHEME",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": true,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 69,
+    "duration": 0.5317034721374512
+  },
+  {
+    "status": "success",
+    "task_id": 70,
+    "dataset": "PHEME",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": false,
+      "text": true
+    },
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "task_idx": 70,
+    "duration": 0.44777679443359375
+  },
+  {
+    "status": "success",
+    "task_id": 71,
+    "dataset": "PHEME",
+    "model": "Hybrid",
+    "ablation": {
+      "topology": false,
+      "text": false
+    },
+    "accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "task_idx": 71,
+    "duration": 0.4296255111694336
+  }
+]

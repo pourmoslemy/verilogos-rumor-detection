@@ -44,6 +44,7 @@ ENV/
 docs-venv/
 verilogos-env/
 sann-env/
+test-env/
 
 # Sphinx documentation
 docs/_build/
@@ -78,4 +79,5 @@ logs/
 
 # Temporary files
 *.tmp
-*.bak
+*.bak 
+ 
