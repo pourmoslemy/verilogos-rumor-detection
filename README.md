@@ -1,35 +1,118 @@
-Topological Lie Detector
-Topological Lie Detector is a standalone fake-news detection project that combines Topological Data Analysis (TDA) over ACL2017 propagation trees with transformer-based text semantics.
+# 🔬 Topological Lie Detector
 
-The system supports three execution modes (tda_only, text_only, hybrid) and produces reproducible metrics plus publication-style visual artifacts.
+**Topological Lie Detector** is a standalone fake-news detection system that combines **Topological Data Analysis (TDA)** on social media propagation trees with **transformer-based text semantics**.
 
-🏗 Architecture (Text Diagram)
-ACL2017 (twitter15/twitter16)
+The system analyzes rumor propagation in the **ACL2017 Twitter15 / Twitter16 dataset** and supports multiple modeling strategies to compare **topology-only**, **text-only**, and **hybrid topology–semantic models**.
 
-|
+The project produces **reproducible metrics and publication-quality visual artifacts** for research and experimentation.
 
-±-> Text Path (Tokenizer -> Transformer -> CLS embedding)
+---
 
-|
+# 📑 Table of Contents
 
-±-> Topology Path (Propagation Tree -> Rigorous TDA Pipeline -> 36D features)
+- Overview
+- Architecture
+- Repository Structure
+- Installation
+- Quickstart (Local)
+- Quickstart (Colab)
+- CLI Usage
+- Results
+- Citation
+- License
 
-|
+---
 
-±-> Betti curves / persistence statistics / graph structure metrics
+# 🧠 Overview
 
-Fusion:
+Rumor propagation in social networks exhibits **distinct structural patterns** that differ from truthful information diffusion.
 
-tda_only: TDA MLP classifier
-text_only: Transformer classifier
-hybrid: Bidirectional Cross-Attention (Text <-> TDA) + fusion head
-Outputs:
+This project investigates whether **topological signatures of propagation graphs** can help detect misinformation.
 
-Accuracy/F1 and per-model predictions
-ROC, PR, confusion matrices, training curves
-JSON + text reports under ./results
+The system combines:
+
+### Text Semantics
+Transformer embeddings extracted from tweets.
+
+### Topological Features
+Persistent homology features extracted from propagation trees.
+
+### Hybrid Fusion
+Cross‑attention fusion of text and topology representations.
+
+---
+
+# 🏗 Architecture
+ACL2017 Dataset
+
+(twitter15 / twitter16)
+
+│
+
+│
+
+├─────────────── Text Path ────────────────┐
+
+│ │
+
+│ Tokenizer → Transformer → CLS Embedding
+
+│ │
+
+│
+
+└────────────── Topology Path ─────────────┐
+
+│
+
+Propagation Tree → Rigorous TDA Pipeline → 36D Topology Features
+
+│
+
+│
+
+Betti Curves
+
+Persistence Statistics
+
+Graph Structure Metrics
+
+Fusion Modes:
+
+tda_only
+
+TDA feature vector → MLP classifier
+
+text_only
+
+Transformer CLS embedding → linear classifier
+
+hybrid
+
+Bidirectional cross‑attention between
+
+text embeddings and TDA features
+
+Output:
+
+Predictions
+
+Accuracy / F1
+
+ROC curves
+
+PR curves
+
+Confusion matrices
+
+Training curves
+
+JSON and text reports
+
 📂 Repository Layout
 topological-lie-detector/
+
+│
 
 ├── README.md
 
@@ -37,15 +120,23 @@ topological-lie-detector/
 
 ├── run.py
 
+│
+
 ├── configs/
 
 │ └── default.yaml
+
+│
 
 ├── src/
 
 │ └── topolie/
 
+│ │
+
 │ ├── init.py
+
+│ │
 
 │ ├── data/
 
@@ -53,11 +144,15 @@ topological-lie-detector/
 
 │ │ └── loaders.py
 
+│ │
+
 │ ├── tda/
 
 │ │ ├── init.py
 
 │ │ └── pipeline.py
+
+│ │
 
 │ ├── models/
 
@@ -67,11 +162,15 @@ topological-lie-detector/
 
 │ │ └── trainer.py
 
+│ │
+
 │ ├── eval/
 
 │ │ ├── init.py
 
 │ │ └── visualizer.py
+
+│ │
 
 │ └── experiments/
 
@@ -79,72 +178,131 @@ topological-lie-detector/
 
 │ └── runner.py
 
+│
+
 ├── checkpoints/
 
 │ └── tda_only/
 
 │ └── best_model.pt
 
+│
+
 ├── data/
 
 │ └── .gitkeep
+
+│
 
 └── notebooks/
 
 └── colab_demo.ipynb
 
-🚀 Quickstart (Local)
-1️⃣ Create environment and install dependencies
-bash
+⚙ Installation
+Create a Python environment and install dependencies.
+
 python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+
+Activate environment:
+
+Windows
+
+.venv\Scripts\activate
+
+Linux / Mac
+
+source .venv/bin/activate
+
+Install dependencies
+
 pip install -r requirements.txt
-2️⃣ Place ACL2017 dataset at:
-data/acl2017/twitter15/{label.txt,source_tweets.txt,tree/*.txt}
 
-data/acl2017/twitter16/{label.txt,source_tweets.txt,tree/*.txt}
+🚀 Quickstart (Local)
+Place the ACL2017 dataset in the following structure:
 
-3️⃣ Run Hybrid Mode
-bash
+data/acl2017/
+
+twitter15/
+
+label.txt
+
+source_tweets.txt
+
+tree/
+
+twitter16/
+
+label.txt
+
+source_tweets.txt
+
+tree/
+
+Run the hybrid model:
+
 python run.py --mode hybrid --data_path ./data/acl2017
-☁️ Quickstart (Colab)
-Use notebooks/colab_demo.ipynb, or run:
 
-python
-!git clone <YOUR_REPO_URL>
+☁️ Quickstart (Google Colab)
+Clone the repository:
+
+!git clone https://github.com/YOUR_USERNAME/topological-lie-detector
+
 %cd topological-lie-detector
+
+Install dependencies:
+
 !pip install -r requirements.txt
 
+Run the three modes:
+
 !python run.py --mode tda_only --data_path ./data/acl2017 --max_events 200 --epochs 5
+
 !python run.py --mode text_only --data_path ./data/acl2017 --max_events 200 --epochs 5
+
 !python run.py --mode hybrid --data_path ./data/acl2017 --max_events 200 --epochs 5
-🖥 CLI Usage
-bash
-python run.py --mode {tda_only,text_only,hybrid} \
-              --data_path ./data/acl2017 \
-              --max_events 400 \
-              --epochs 15
-Optional:
 
-bash
+💻 CLI Usage
+Basic command:
+
+python run.py \
+
+–mode hybrid \
+
+–data_path ./data/acl2017 \
+
+–max_events 400 \
+
+–epochs 15
+
+Available modes:
+
+tda_only
+
+text_only
+
+hybrid
+
+Optional configuration file:
+
 python run.py --config configs/default.yaml
-📊 Results Table (Placeholder)
-Mode	Accuracy	F1 (Weighted)	Notes
-TDA Only	TBD	TBD	Rigorous topology features only
-Text Only	TBD	TBD	Transformer semantics only
-Hybrid	TBD	TBD	Cross-attention fusion
-📄 Citation (Placeholder)
-bibtex
-@article{pourmoslemi2026topological,
-  title={Topological Lie Detector: Geometry-Aware Misinformation Detection},
-  author={Pourmoslemi, Alireza},
-  year={2026}
-}
-📜 License
-MIT
 
-✅ بعدش:
-bash
-git add README.md
-git commit -m "Rewrite README with final standalone architecture description"
-git push
+📊 Results (Placeholder)
+Mode	Accuracy	Weighted F1	Notes
+TDA Only	TBD	TBD	Topological features only
+Text Only	TBD	TBD	Transformer text features
+Hybrid	TBD	TBD	Cross‑attention fusion
+📄 Citation
+If you use this work in research, please cite:
+
+@article{pourmoslemi2026topological,
+
+title={Topological Lie Detector: Geometry-Aware Misinformation Detection},
+
+author={Pourmoslemi, Alireza},
+
+year={2026}
+
+}
+
+📜 License
+MIT License
