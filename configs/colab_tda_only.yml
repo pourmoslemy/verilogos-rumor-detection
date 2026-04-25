@@ -1,7 +1,17 @@
 mode: tda_only
-batch_size: 32
-learning_rate: 0.001
-hidden_dims: [128, 64]
-dropout: 0.3
-device: cuda
-seed: 42
+
+data:
+  data_path: ./data/acl2017
+  max_events: 0
+
+model:
+  tda_dim: 128
+  hidden_dim: 256
+  num_classes: 4
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 50
+  device: cuda
+  checkpoint_dir: ./checkpoints/tda_only

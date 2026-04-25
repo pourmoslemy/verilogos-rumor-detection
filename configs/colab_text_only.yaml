@@ -1,7 +1,17 @@
 mode: text_only
-batch_size: 16
-learning_rate: 0.00002
-transformer_model: "bert-base-uncased"
-max_length: 128
-device: cuda
-seed: 42
+
+data:
+  data_path: ./data/acl2017
+  max_events: 0
+
+model:
+  transformer_model: bert-base-uncased
+  hidden_dim: 768
+  num_classes: 4
+
+training:
+  batch_size: 16
+  learning_rate: 2e-5
+  epochs: 10
+  device: cuda
+  checkpoint_dir: ./checkpoints/text_only
