@@ -1,0 +1,7 @@
+mode: tda_only
+batch_size: 32
+learning_rate: 0.001
+hidden_dims: [128, 64]
+dropout: 0.3
+device: cuda
+seed: 42
