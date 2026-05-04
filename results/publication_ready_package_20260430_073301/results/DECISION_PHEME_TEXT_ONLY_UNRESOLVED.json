@@ -1,0 +1,70 @@
+{
+  "dataset": "pheme",
+  "mode": "text_only",
+  "decision": "unresolved_negative_baseline",
+  "final_status": "not_fixed_scientifically_unreliable",
+  "scientific_reliability": "NO",
+  "collapse_resolved": false,
+  "one_class_predicted": true,
+  "severe_collapse": true,
+  "recommended_to_block_publication": false,
+  "open_ended_tuning_allowed": false,
+  "keep_patch": true,
+  "patch_status": "accepted_for_auditability",
+  "patch_backward_compatible": true,
+  "checkpoint_metric": "macro_f1",
+  "checkpoint_mode": "max",
+  "selected_epoch": 1,
+  "validation_metrics": {
+    "macro_f1": 0.3763440860215054,
+    "weighted_f1": 0.45420837968112715,
+    "predicted_distribution": "all_REAL",
+    "real_recall": 1.0,
+    "fake_recall": 0.0
+  },
+  "test_metrics": {
+    "accuracy": 0.5131578947368421,
+    "weighted_f1": 0.3480549199084668,
+    "macro_f1": 0.3391304347826087,
+    "confusion_matrix": [
+      [
+        39,
+        0
+      ],
+      [
+        37,
+        0
+      ]
+    ],
+    "real_recall": 1.0,
+    "fake_recall": 0.0
+  },
+  "interpretation": "Macro-F1 checkpointing worked mechanically but selected a checkpoint that was itself collapsed; checkpoint selection alone is insufficient to stabilize PHEME text-only under the current protocol.",
+  "next_priorities": [
+    "analyze_pheme_tda_only",
+    "confirm_pheme_hybrid",
+    "plan_full_final_rerun"
+  ],
+  "do_not_do": [
+    "do_not_run_more_open_ended_pheme_text_only_tuning",
+    "do_not_change_label_mapping",
+    "do_not_change_dataset_splits",
+    "do_not_modify_data_files",
+    "do_not_revert_macro_f1_checkpoint_patch"
+  ],
+  "paths": {
+    "approval_file": "/home/ubuntu/colab_deployment/OWNER_PREAPPROVAL_PHEME_TEXT_ONLY_DECISION.md",
+    "config": "/home/ubuntu/colab_deployment/configs/pheme_text_only_macro_f1_checkpoint.yaml",
+    "artifact_dir": "/home/ubuntu/colab_deployment/results/pheme_text_only_macro_f1_checkpoint_20260430_055513/",
+    "decision_md": "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.md",
+    "decision_json": "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json"
+  },
+  "audit": {
+    "created_at": "2026-04-30T06:17:47Z",
+    "approval_source": "/home/ubuntu/colab_deployment/OWNER_PREAPPROVAL_PHEME_TEXT_ONLY_DECISION.md",
+    "no_training_run": true,
+    "no_dataset_semantics_changed": true,
+    "documentation_only_change": true,
+    "non_interactive_preapproval_used": true
+  }
+}

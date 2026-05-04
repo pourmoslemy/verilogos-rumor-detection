@@ -1,0 +1,41 @@
+experiment:
+  mode: hybrid
+  max_events: null
+  random_seed: 42
+  device: cpu
+
+data:
+  data_path: ./data/acl2017
+  balance_classes: true
+
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+tda:
+  n_workers: 2
+  lambda_decay: 0.001
+  temporal_window: 60.0
+
+model:
+  text_model_name: distilroberta-base
+  local_files_only: true
+  tda_input_dim: 36
+  tda_hidden_dims: [128, 256, 512]
+  embed_dim: 768
+  num_attention_heads: 8
+  dropout: 0.3
+  freeze_text_encoder: false
+
+training:
+  batch_size: 8
+  epochs: 10
+  learning_rate: 0.00002
+  weight_decay: 0.01
+  patience: 3
+  num_workers: 0
+
+output:
+  results_dir: ./results
+  checkpoint_dir: ./checkpoints

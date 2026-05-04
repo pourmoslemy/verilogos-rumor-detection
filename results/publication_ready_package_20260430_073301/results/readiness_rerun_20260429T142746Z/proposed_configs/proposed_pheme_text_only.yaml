@@ -1,0 +1,38 @@
+experiment:
+  mode: text_only
+  max_events: 0
+  random_seed: 42
+  device: cpu
+data:
+  data_path: /home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429
+  balance_classes: false
+split:
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+tda:
+  n_workers: 4
+  lambda_decay: 0.001
+  temporal_window: 60.0
+model:
+  text_model_name: ./models/bert-base-uncased
+  tda_input_dim: 36
+  tda_hidden_dims:
+  - 128
+  - 256
+  - 512
+  embed_dim: 768
+  num_attention_heads: 8
+  dropout: 0.3
+  freeze_text_encoder: false
+  local_files_only: true
+training:
+  batch_size: 16
+  epochs: 15
+  learning_rate: 2.0e-05
+  weight_decay: 0.01
+  patience: 5
+  num_workers: 0
+output:
+  results_dir: /home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/pheme/text_only
+  checkpoint_dir: /home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/pheme/text_only/checkpoints

@@ -1,0 +1,224 @@
+{
+  "inventory": [
+    {
+      "dataset_name": "twitter15",
+      "dataset_type": "fully_processed",
+      "notes": [],
+      "number_of_cascades": 1490,
+      "path": "/home/ubuntu/colab_deployment/data/acl2017/twitter15",
+      "structural_validity": {
+        "bad_tree_count_sampled": 0,
+        "bad_tree_examples": [],
+        "cascades": 1490,
+        "dataset_format": "acl2017_processed",
+        "loader_ok": true,
+        "tree_files": 1490,
+        "tree_formats": {
+          "legacy_acl2017": 1490
+        }
+      }
+    },
+    {
+      "dataset_name": "twitter16",
+      "dataset_type": "fully_processed",
+      "notes": [],
+      "number_of_cascades": 818,
+      "path": "/home/ubuntu/colab_deployment/data/acl2017/twitter16",
+      "structural_validity": {
+        "bad_tree_count_sampled": 0,
+        "bad_tree_examples": [],
+        "cascades": 818,
+        "dataset_format": "acl2017_processed",
+        "loader_ok": true,
+        "tree_files": 818,
+        "tree_formats": {
+          "legacy_acl2017": 818
+        }
+      }
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "partially_processed",
+      "notes": [
+        "processed dataset failed tree validation"
+      ],
+      "number_of_cascades": 330,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/processed",
+      "structural_validity": {
+        "bad_tree_count_sampled": 20,
+        "bad_tree_examples": [
+          {
+            "error": "unreachable nodes: 6",
+            "root_id": "580357272104235008"
+          },
+          {
+            "error": "unreachable nodes: 4",
+            "root_id": "581022047490351104"
+          },
+          {
+            "error": "unreachable nodes: 3",
+            "root_id": "580347613163196416"
+          },
+          {
+            "error": "unreachable nodes: 4",
+            "root_id": "553506608203169792"
+          },
+          {
+            "error": "unreachable nodes: 7",
+            "root_id": "553501357156876290"
+          },
+          {
+            "error": "unreachable nodes: 10",
+            "root_id": "553576010898497536"
+          },
+          {
+            "error": "unreachable nodes: 2",
+            "root_id": "552810448324943872"
+          },
+          {
+            "error": "unreachable nodes: 3",
+            "root_id": "553470492565602305"
+          },
+          {
+            "error": "unreachable nodes: 2",
+            "root_id": "553531413459660800"
+          },
+          {
+            "error": "unreachable nodes: 24",
+            "root_id": "552805488631758849"
+          }
+        ],
+        "cascades": 330,
+        "dataset_format": "pheme_processed",
+        "loader_ok": false,
+        "tree_files": 330,
+        "tree_formats": {
+          "pheme_tab": 95
+        }
+      }
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "raw_archive_container",
+      "notes": [
+        "6392078.zip",
+        "phemernrdataset.tar.bz2",
+        "phemerumourschemedataset.tar.bz2"
+      ],
+      "number_of_cascades": null,
+      "path": "/home/ubuntu/datasets/pheme_raw",
+      "structural_validity": null
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "raw_archive_container",
+      "notes": [
+        "PHEME_veracity.tar.bz2"
+      ],
+      "number_of_cascades": null,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/raw",
+      "structural_validity": null
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "extracted_raw_directory",
+      "notes": [],
+      "number_of_cascades": null,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/raw/pheme-rnr-dataset",
+      "structural_validity": {
+        "thread_dirs_detected": 0
+      }
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "extracted_raw_directory",
+      "notes": [],
+      "number_of_cascades": 330,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/raw/pheme-rumour-scheme-dataset",
+      "structural_validity": {
+        "thread_dirs_detected": 330
+      }
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "extracted_raw_directory",
+      "notes": [],
+      "number_of_cascades": 330,
+      "path": "/home/ubuntu/colab_deployment/data/pheme",
+      "structural_validity": {
+        "thread_dirs_detected": 330
+      }
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "raw_archive",
+      "notes": [
+        "size_bytes=46529729"
+      ],
+      "number_of_cascades": null,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/raw/PHEME_veracity.tar.bz2",
+      "structural_validity": null
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "raw_archive",
+      "notes": [
+        "size_bytes=68100705"
+      ],
+      "number_of_cascades": null,
+      "path": "/home/ubuntu/datasets/pheme_raw/phemerumourschemedataset.tar.bz2",
+      "structural_validity": null
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "raw_archive",
+      "notes": [
+        "size_bytes=46531813"
+      ],
+      "number_of_cascades": null,
+      "path": "/home/ubuntu/datasets/pheme_raw/6392078.zip",
+      "structural_validity": null
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "raw_archive",
+      "notes": [
+        "size_bytes=26735006"
+      ],
+      "number_of_cascades": null,
+      "path": "/home/ubuntu/datasets/pheme_raw/phemernrdataset.tar.bz2",
+      "structural_validity": null
+    },
+    {
+      "dataset_name": "pheme",
+      "dataset_type": "fully_processed",
+      "notes": [
+        "rebuilt in a non-overwriting directory because ~/colab_deployment/data/pheme/processed already existed and was invalid",
+        "reparented_edges=127"
+      ],
+      "number_of_cascades": 330,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429",
+      "structural_validity": {
+        "bad_tree_count_sampled": 0,
+        "bad_tree_examples": [],
+        "cascades": 330,
+        "dataset_format": "pheme_processed",
+        "loader_ok": true,
+        "tree_files": 330,
+        "tree_formats": {
+          "pheme_tab": 330
+        }
+      }
+    }
+  ],
+  "roots_scanned": [
+    "/home/ubuntu/colab_deployment",
+    "/home/ubuntu/datasets",
+    "/mnt"
+  ],
+  "server": {
+    "host": "linux.ferdowsi.cloud",
+    "port": 2388,
+    "user": "ubuntu"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "pheme": {
+    "accuracy": {
+      "test": 0.5,
+      "train": 0.5625
+    },
+    "batch_stats": {
+      "feature_dim": 9,
+      "test_samples": 4,
+      "train_samples": 16
+    },
+    "loader_speed_samples_per_sec": 552.3321,
+    "loss_trend": [
+      2.149921,
+      2.471727
+    ],
+    "path": "/tmp/tmp_6haqyu9/pheme_processed",
+    "samples": 20
+  },
+  "twitter15": {
+    "accuracy": {
+      "test": 0.755034,
+      "train": 0.817114
+    },
+    "batch_stats": {
+      "feature_dim": 256,
+      "test_samples": 298,
+      "train_samples": 1192
+    },
+    "loader_speed_samples_per_sec": 36.6547,
+    "loss_trend": [
+      0.678667,
+      1.021149
+    ],
+    "path": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15",
+    "samples": 1490
+  },
+  "twitter16": {
+    "accuracy": {
+      "test": 0.817073,
+      "train": 0.90367
+    },
+    "batch_stats": {
+      "feature_dim": 256,
+      "test_samples": 164,
+      "train_samples": 654
+    },
+    "loader_speed_samples_per_sec": 39.6433,
+    "loss_trend": [
+      0.262081,
+      0.667933
+    ],
+    "path": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16",
+    "samples": 818
+  }
+}

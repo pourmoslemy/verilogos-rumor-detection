@@ -1,0 +1,21 @@
+# Dataset files are user-provided and not committed
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Local logs and temporary outputs
+logs/
+*.log
+
+# Checkpoints are generally excluded except the final recommended released weight
+checkpoints/
+!checkpoints/tda_only/
+!checkpoints/tda_only/best_model.pt
+
+# Local archives
+*.zip

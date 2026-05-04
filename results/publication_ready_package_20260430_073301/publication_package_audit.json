@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-04-30T06:52:46.998769+00:00",
+  "root": "/home/ubuntu/colab_deployment",
+  "final_runs": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z",
+  "decision_overlay": "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json",
+  "backups_created": [],
+  "deliverables": [
+    "/home/ubuntu/colab_deployment/PUBLICATION_READY_EXECUTIVE_SUMMARY.md",
+    "/home/ubuntu/colab_deployment/publication_tables.tex",
+    "/home/ubuntu/colab_deployment/publication_tables.md",
+    "/home/ubuntu/colab_deployment/publication_tables.csv",
+    "/home/ubuntu/colab_deployment/FIGURE_PLAN.md",
+    "/home/ubuntu/colab_deployment/figures_manifest.json",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_MODELS.md",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_MODELS.json",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_CONFIGS.md",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_CONFIGS.json",
+    "/home/ubuntu/colab_deployment/FINAL_TUNING_RECOMMENDATION.md",
+    "/home/ubuntu/colab_deployment/PAPER_READY_CLAIMS.md",
+    "/home/ubuntu/colab_deployment/SUBMISSION_CHECKLIST.md",
+    "/home/ubuntu/colab_deployment/publication_package_audit.json"
+  ],
+  "figure_dir": "/home/ubuntu/colab_deployment/publication_figures"
+}

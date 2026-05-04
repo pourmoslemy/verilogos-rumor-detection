@@ -1,0 +1,62 @@
+{
+  "comparison": null,
+  "dataset_checks": {
+    "pheme": {
+      "detected": false,
+      "required_structure": [
+        "source_tweets.txt",
+        "label.txt",
+        "tree/",
+        "root_ids.txt or metadata.jsonl"
+      ],
+      "search_scope": [
+        "/mnt/d/verilogos/**/pheme/processed",
+        "/mnt/d/verilogos/**/data/pheme/processed",
+        "/mnt/d/verilogos/**/root_ids.txt",
+        "/mnt/d/verilogos/**/metadata.jsonl"
+      ]
+    },
+    "twitter15": {
+      "cascades": 1490,
+      "detected": true,
+      "path": "historical_data/rumor_detection_acl2017/twitter15",
+      "structural_validation": {
+        "all_reachable": true,
+        "no_cycles": true,
+        "no_empty_cascades": true,
+        "root_exists": true
+      },
+      "tree_files_readable": true
+    },
+    "twitter16": {
+      "cascades": 818,
+      "detected": true,
+      "path": "historical_data/rumor_detection_acl2017/twitter16",
+      "structural_validation": {
+        "all_reachable": true,
+        "no_cycles": true,
+        "no_empty_cascades": true,
+        "root_exists": true
+      },
+      "tree_files_readable": true
+    }
+  },
+  "datasets_detected": {
+    "pheme": false,
+    "twitter15": true,
+    "twitter16": true
+  },
+  "distributions": null,
+  "failed_phase": "PHASE 1 \u2014 Dataset Discovery",
+  "failure_reason": "Real processed PHEME dataset not found locally; full three-dataset validation cannot proceed.",
+  "manual_intervention_needed": [
+    "Create or place the real processed PHEME dataset under the workspace.",
+    "Required processed layout: source_tweets.txt, label.txt, tree/, and root_ids.txt or metadata.jsonl.",
+    "Re-run the real-data validation after the processed PHEME dataset is available."
+  ],
+  "plots": null,
+  "recommended_normalizations": [],
+  "smoke_training": null,
+  "status": "failed",
+  "topology_stats": null
+}

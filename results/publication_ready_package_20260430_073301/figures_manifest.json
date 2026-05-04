@@ -1,0 +1,93 @@
+{
+  "generated": true,
+  "figure_dir": "/home/ubuntu/colab_deployment/publication_figures",
+  "figures": [
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_figures/overall_model_comparison_bar_chart.png",
+      "title": "Overall Model Comparison",
+      "caption": "Weighted F1 across all nine runs, colored by reliability class.",
+      "scientific_purpose": "Show the global performance spread while keeping failed baselines visible.",
+      "paper_placement": "Main paper",
+      "source_artifacts": [
+        "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z"
+      ],
+      "generated_from_frozen_metrics": true
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_figures/per_dataset_weighted_f1_comparison.png",
+      "title": "Per-Dataset Weighted F1 Comparison",
+      "caption": "Mode-wise weighted F1 within each dataset.",
+      "scientific_purpose": "Support dataset-level winner claims.",
+      "paper_placement": "Main paper",
+      "source_artifacts": [
+        "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z"
+      ],
+      "generated_from_frozen_metrics": true
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_figures/collapse_warning_chart.png",
+      "title": "Collapse Warning Chart",
+      "caption": "Per-class recall for each run, with collapsed runs explicitly marked.",
+      "scientific_purpose": "Prevent aggregate metrics from hiding one-class failure.",
+      "paper_placement": "Main paper",
+      "source_artifacts": [
+        "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z",
+        "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json"
+      ],
+      "generated_from_frozen_metrics": true
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_figures/metric_heatmap.png",
+      "title": "Metric Heatmap",
+      "caption": "Heatmap over accuracy, F1, and per-class recall for all runs.",
+      "scientific_purpose": "Compact appendix summary of performance and imbalance.",
+      "paper_placement": "Appendix",
+      "source_artifacts": [
+        "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z",
+        "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json"
+      ],
+      "generated_from_frozen_metrics": true
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_figures/reliability_matrix.png",
+      "title": "Reliability Matrix",
+      "caption": "Dataset-by-mode matrix labeling each run as valid, weak, or failed.",
+      "scientific_purpose": "Fast audit view of what is scientifically claimable.",
+      "paper_placement": "Main paper",
+      "source_artifacts": [
+        "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z",
+        "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json"
+      ],
+      "generated_from_frozen_metrics": true
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_figures/reliable_confusion_matrix_summary.png",
+      "title": "Reliable Confusion-Matrix Summary",
+      "caption": "Confusion matrices for non-collapsed runs only.",
+      "scientific_purpose": "Appendix evidence that recommended models predict both classes.",
+      "paper_placement": "Appendix",
+      "source_artifacts": [
+        "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z"
+      ],
+      "generated_from_frozen_metrics": true
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_figures/prediction_distribution_visualization.png",
+      "title": "Prediction Distribution Visualization",
+      "caption": "Stacked predicted-class counts highlighting one-class collapse.",
+      "scientific_purpose": "Appendix support for collapse diagnostics.",
+      "paper_placement": "Appendix",
+      "source_artifacts": [
+        "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z",
+        "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json"
+      ],
+      "generated_from_frozen_metrics": true
+    }
+  ],
+  "global_notes": {
+    "binary_label_contract": "REAL=0, FAKE=1",
+    "unsupported_labels": "unverified/unconfirmed are outside the reported binary claim set and are not silently remapped in this package",
+    "failed_run_rendering": "failed runs may appear in overview plots but remain color-coded and excluded from scientific ranking claims",
+    "precision_policy": "figure sources follow frozen artifact metrics; publication tables round to four decimals while CSV preserves raw precision"
+  }
+}

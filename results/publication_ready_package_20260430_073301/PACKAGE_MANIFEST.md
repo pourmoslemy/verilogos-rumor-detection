@@ -1,0 +1,89 @@
+# Package Manifest
+
+- Package name: VeriLogos_PUBLICATION_READY_PACKAGE_20260430_073301
+- Creation timestamp: 2026-04-30T07:33:02Z
+- Project root path: /home/ubuntu/colab_deployment
+- Packaging mode: frozen publication-ready package
+- Training/evaluation/rerun performed during packaging: NO
+- Metrics modified during packaging: NO
+- Scientific claims modified during packaging: NO
+- Collapsed/problematic runs remain documented and unaltered: YES
+
+## Included Files
+- `AUDIT_ONLY_PUBLICATION_REVIEW.json` (4828 bytes)
+- `AUDIT_ONLY_PUBLICATION_REVIEW.md` (4873 bytes)
+- `FIGURE_PLAN.md` (3211 bytes)
+- `FINAL_RECOMMENDED_CONFIGS.json` (9914 bytes)
+- `FINAL_RECOMMENDED_CONFIGS.md` (6154 bytes)
+- `FINAL_RECOMMENDED_MODELS.json` (4806 bytes)
+- `FINAL_RECOMMENDED_MODELS.md` (2608 bytes)
+- `FINAL_TUNING_RECOMMENDATION.md` (1278 bytes)
+- `MISSING_OPTIONAL_FILES.txt` (63 bytes)
+- `PACKAGE_README.md` (1013 bytes)
+- `PAPER_READY_CLAIMS.md` (2951 bytes)
+- `PUBLICATION_READY_EXECUTIVE_SUMMARY.md` (3043 bytes)
+- `README.md` (5031 bytes)
+- `Run_on_Colab.ipynb` (7067 bytes)
+- `SUBMISSION_CHECKLIST.md` (1020 bytes)
+- `configs/colab_hybrid.yaml` (683 bytes)
+- `configs/colab_hybrid.yaml.pre_fullrun.bak` (682 bytes)
+- `configs/colab_tda_only.yml` (690 bytes)
+- `configs/colab_tda_only.yml.pre_fullrun.bak` (690 bytes)
+- `configs/colab_text_only.yaml` (692 bytes)
+- `configs/colab_text_only.yaml.pre_fullrun.bak` (697 bytes)
+- `configs/default.yaml` (706 bytes)
+- `configs/default.yaml.autofix.bak` (639 bytes)
+- `configs/default.yaml.pre_fullrun.bak` (673 bytes)
+- `configs/pheme_text_only_macro_f1_checkpoint.yaml` (982 bytes)
+- `figures_manifest.json` (4599 bytes)
+- `publication_figures/collapse_warning_chart.png` (194969 bytes)
+- `publication_figures/metric_heatmap.png` (142655 bytes)
+- `publication_figures/overall_model_comparison_bar_chart.png` (191321 bytes)
+- `publication_figures/per_dataset_weighted_f1_comparison.png` (83268 bytes)
+- `publication_figures/prediction_distribution_visualization.png` (196632 bytes)
+- `publication_figures/reliability_matrix.png` (81506 bytes)
+- `publication_figures/reliable_confusion_matrix_summary.png` (190233 bytes)
+- `publication_package_audit.json` (1294 bytes)
+- `publication_tables.csv` (6889 bytes)
+- `publication_tables.md` (5634 bytes)
+- `publication_tables.tex` (2014 bytes)
+- `requirements.txt` (166 bytes)
+- `results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json` (2443 bytes)
+- `results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.md` (2405 bytes)
+- `results/final_runs/20260429T142746Z/pheme/hybrid/classification_report.txt` (741 bytes)
+- `results/final_runs/20260429T142746Z/pheme/hybrid/results.json` (244 bytes)
+- `results/final_runs/20260429T142746Z/pheme/tda_only/classification_report.txt` (743 bytes)
+- `results/final_runs/20260429T142746Z/pheme/tda_only/results.json` (246 bytes)
+- `results/final_runs/20260429T142746Z/pheme/text_only/classification_report.txt` (744 bytes)
+- `results/final_runs/20260429T142746Z/pheme/text_only/results.json` (248 bytes)
+- `results/final_runs/20260429T142746Z/twitter15/hybrid/classification_report.txt` (741 bytes)
+- `results/final_runs/20260429T142746Z/twitter15/hybrid/results.json` (241 bytes)
+- `results/final_runs/20260429T142746Z/twitter15/tda_only/classification_report.txt` (743 bytes)
+- `results/final_runs/20260429T142746Z/twitter15/tda_only/results.json` (200 bytes)
+- `results/final_runs/20260429T142746Z/twitter15/text_only/classification_report.txt` (744 bytes)
+- `results/final_runs/20260429T142746Z/twitter15/text_only/results.json` (246 bytes)
+- `results/final_runs/20260429T142746Z/twitter16/hybrid/classification_report.txt` (741 bytes)
+- `results/final_runs/20260429T142746Z/twitter16/hybrid/results.json` (216 bytes)
+- `results/final_runs/20260429T142746Z/twitter16/tda_only/classification_report.txt` (743 bytes)
+- `results/final_runs/20260429T142746Z/twitter16/tda_only/results.json` (220 bytes)
+- `results/final_runs/20260429T142746Z/twitter16/text_only/classification_report.txt` (744 bytes)
+- `results/final_runs/20260429T142746Z/twitter16/text_only/results.json` (220 bytes)
+- `results/fix_label_pheme_20260429T100809Z/00_BASELINE.txt` (355 bytes)
+- `results/fix_label_pheme_20260429T100809Z/03_PHEME_PATCH_SUMMARY.md` (1823 bytes)
+- `results/fix_label_pheme_20260429T100809Z/07_PIPELINE_DRY_RUNS.txt` (3966 bytes)
+- `results/fix_label_pheme_20260429T100809Z/09_FINAL_FIX_REPORT.md` (3189 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_pheme_hybrid.yaml` (869 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_pheme_tda_only.yaml` (875 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_pheme_text_only.yaml` (878 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter15_hybrid.yaml` (864 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter15_tda_only.yaml` (870 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter15_text_only.yaml` (873 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter16_hybrid.yaml` (864 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter16_tda_only.yaml` (870 bytes)
+- `results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter16_text_only.yaml` (873 bytes)
+- `run.py` (2384 bytes)
+
+## Missing Optional Files
+- `FINAL_FINDINGS_EXECUTIVE_SUMMARY.md`
+- `FINAL_METRICS_SUMMARY.json`
+

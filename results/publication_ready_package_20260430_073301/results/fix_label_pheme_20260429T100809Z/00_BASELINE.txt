@@ -1,0 +1,12 @@
+TIMESTAMP_UTC=20260429T100809Z
+PWD=/home/ubuntu/colab_deployment
+
+Git status:
+
+Python:
+bash: line 15: python: command not found
+
+Tree important files:
+-rw-rw-r-- 1 ubuntu ubuntu 2.4K Apr 27 04:59 run.py
+-rw-rw-r-- 1 ubuntu ubuntu  13K Apr 28 17:12 src/topolie/data/loaders.py
+-rw-rw-r-- 1 ubuntu ubuntu 6.5K Apr 27 04:59 src/topolie/experiments/runner.py

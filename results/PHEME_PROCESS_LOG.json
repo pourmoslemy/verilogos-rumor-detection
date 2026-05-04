@@ -1,0 +1,43 @@
+{
+  "avg_edges_per_tree": 15.2576,
+  "avg_nodes_per_tree": 16.2576,
+  "class_distribution": {
+    "fake": 171,
+    "real": 159
+  },
+  "corrupted_files": 0,
+  "events_total": 9,
+  "existing_invalid_processed_preserved": "/home/ubuntu/colab_deployment/data/pheme/processed",
+  "leakage_ok": true,
+  "new_output_path": "/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429",
+  "notes": [
+    "Rebuild attaches replies whose declared parent is missing from the thread to the root node to preserve a connected tree.",
+    "No existing dataset directory was overwritten."
+  ],
+  "reparented_edges": 127,
+  "reply_total": 5072,
+  "skipped_threads": 0,
+  "source_raw_path": "/home/ubuntu/colab_deployment/data/pheme/raw/pheme-rumour-scheme-dataset",
+  "source_threads_total": 330,
+  "split_summary": {
+    "test": {
+      "events": 2,
+      "fake": 37,
+      "real": 39,
+      "roots": 76
+    },
+    "train": {
+      "events": 6,
+      "fake": 111,
+      "real": 85,
+      "roots": 196
+    },
+    "val": {
+      "events": 1,
+      "fake": 23,
+      "real": 35,
+      "roots": 58
+    }
+  },
+  "status": "ok"
+}

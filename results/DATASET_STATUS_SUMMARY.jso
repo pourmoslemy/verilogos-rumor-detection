@@ -1,0 +1,65 @@
+{
+  "must_be_built": [],
+  "pheme_processed": {
+    "legacy_path": "/home/ubuntu/colab_deployment/data/pheme/processed",
+    "legacy_path_found": true,
+    "legacy_path_valid": false,
+    "missing_components": [],
+    "rebuilt_path": "/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429",
+    "rebuilt_path_valid": true
+  },
+  "pheme_raw": {
+    "best_complete_raw_source": "/home/ubuntu/colab_deployment/data/pheme/raw/pheme-rumour-scheme-dataset",
+    "found": true,
+    "sources_count": 4,
+    "threads_detected": 330
+  },
+  "ready_for_training": {
+    "pheme_dataset_ready": true,
+    "pheme_training_path": "/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429",
+    "server_training_code_note": "Remote src/topolie/data/loaders.py remains ACL2017-oriented; use the unified loader-aware codebase when training on PHEME.",
+    "twitter15": true,
+    "twitter16": true,
+    "unified_loader_style_validation": {
+      "pheme_ready": {
+        "dataset_format": "pheme",
+        "ok": true,
+        "path": "/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429",
+        "records": 330,
+        "tree_formats": {
+          "pheme_tab": 330
+        }
+      },
+      "twitter15": {
+        "dataset_format": "acl2017",
+        "ok": true,
+        "path": "/home/ubuntu/colab_deployment/data/acl2017/twitter15",
+        "records": 1490,
+        "tree_formats": {
+          "legacy_acl2017": 1490
+        }
+      },
+      "twitter16": {
+        "dataset_format": "acl2017",
+        "ok": true,
+        "path": "/home/ubuntu/colab_deployment/data/acl2017/twitter16",
+        "records": 818,
+        "tree_formats": {
+          "legacy_acl2017": 818
+        }
+      }
+    }
+  },
+  "twitter15": {
+    "cascades": 1490,
+    "found": true,
+    "path": "/home/ubuntu/colab_deployment/data/acl2017/twitter15",
+    "valid": true
+  },
+  "twitter16": {
+    "cascades": 818,
+    "found": true,
+    "path": "/home/ubuntu/colab_deployment/data/acl2017/twitter16",
+    "valid": true
+  }
+}

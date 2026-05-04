@@ -1,0 +1,123 @@
+[twitter15 x tda_only]
+dataset_path=/home/ubuntu/colab_deployment/data/acl2017/twitter15
+dataset_kind=acl2017
+sample_size=4
+label_distribution={0: 2, 1: 2}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=tda_only device=cpu
+tda_features_precomputed=4
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.7625137567520142
+backward_pass=yes
+status=PASS
+
+[twitter15 x text_only]
+dataset_path=/home/ubuntu/colab_deployment/data/acl2017/twitter15
+dataset_kind=acl2017
+sample_size=4
+label_distribution={0: 2, 1: 2}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=text_only device=cpu
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.6603069305419922
+backward_pass=yes
+status=PASS
+
+[twitter15 x hybrid]
+dataset_path=/home/ubuntu/colab_deployment/data/acl2017/twitter15
+dataset_kind=acl2017
+sample_size=4
+label_distribution={0: 2, 1: 2}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=hybrid device=cpu
+tda_features_precomputed=4
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.6796583533287048
+backward_pass=yes
+status=PASS
+
+[twitter16 x tda_only]
+dataset_path=/home/ubuntu/colab_deployment/data/acl2017/twitter16
+dataset_kind=acl2017
+sample_size=4
+label_distribution={0: 2, 1: 2}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=tda_only device=cpu
+tda_features_precomputed=4
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.7719789147377014
+backward_pass=yes
+status=PASS
+
+[twitter16 x text_only]
+dataset_path=/home/ubuntu/colab_deployment/data/acl2017/twitter16
+dataset_kind=acl2017
+sample_size=4
+label_distribution={0: 2, 1: 2}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=text_only device=cpu
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.7252646684646606
+backward_pass=yes
+status=PASS
+
+[twitter16 x hybrid]
+dataset_path=/home/ubuntu/colab_deployment/data/acl2017/twitter16
+dataset_kind=acl2017
+sample_size=4
+label_distribution={0: 2, 1: 2}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=hybrid device=cpu
+tda_features_precomputed=4
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.7610997557640076
+backward_pass=yes
+status=PASS
+
+[pheme x tda_only]
+dataset_path=/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429
+dataset_kind=pheme
+sample_size=4
+label_distribution={0: 3, 1: 1}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=tda_only device=cpu
+tda_features_precomputed=4
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.7601529359817505
+backward_pass=yes
+status=PASS
+
+[pheme x text_only]
+dataset_path=/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429
+dataset_kind=pheme
+sample_size=4
+label_distribution={0: 3, 1: 1}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=text_only device=cpu
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.6904574632644653
+backward_pass=yes
+status=PASS
+
+[pheme x hybrid]
+dataset_path=/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429
+dataset_kind=pheme
+sample_size=4
+label_distribution={0: 3, 1: 1}
+command=python_snippet_using_load_dataset/create_dataloaders/create_model mode=hybrid device=cpu
+tda_features_precomputed=4
+one_batch_loaded=yes batch_size=2
+model_initialized=yes
+forward_pass=yes logits_shape=(2, 2)
+loss_computed=yes loss=0.7050644159317017
+backward_pass=yes
+status=PASS
+

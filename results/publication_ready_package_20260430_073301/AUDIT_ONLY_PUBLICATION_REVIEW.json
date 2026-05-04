@@ -1,0 +1,93 @@
+{
+  "timestamp_utc": "2026-04-30T07:15:23.749559+00:00",
+  "status": "READY_FOR_MANUSCRIPT_ASSEMBLY",
+  "training_or_reruns_performed": false,
+  "files_reviewed": [
+    "/home/ubuntu/colab_deployment/PUBLICATION_READY_EXECUTIVE_SUMMARY.md",
+    "/home/ubuntu/colab_deployment/publication_tables.md",
+    "/home/ubuntu/colab_deployment/publication_tables.csv",
+    "/home/ubuntu/colab_deployment/publication_tables.tex",
+    "/home/ubuntu/colab_deployment/FIGURE_PLAN.md",
+    "/home/ubuntu/colab_deployment/figures_manifest.json",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_MODELS.md",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_MODELS.json",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_CONFIGS.md",
+    "/home/ubuntu/colab_deployment/FINAL_RECOMMENDED_CONFIGS.json",
+    "/home/ubuntu/colab_deployment/FINAL_TUNING_RECOMMENDATION.md",
+    "/home/ubuntu/colab_deployment/PAPER_READY_CLAIMS.md",
+    "/home/ubuntu/colab_deployment/SUBMISSION_CHECKLIST.md",
+    "/home/ubuntu/colab_deployment/publication_package_audit.json",
+    "/home/ubuntu/colab_deployment/publication_figures/collapse_warning_chart.png",
+    "/home/ubuntu/colab_deployment/publication_figures/metric_heatmap.png",
+    "/home/ubuntu/colab_deployment/publication_figures/overall_model_comparison_bar_chart.png",
+    "/home/ubuntu/colab_deployment/publication_figures/per_dataset_weighted_f1_comparison.png",
+    "/home/ubuntu/colab_deployment/publication_figures/prediction_distribution_visualization.png",
+    "/home/ubuntu/colab_deployment/publication_figures/reliability_matrix.png",
+    "/home/ubuntu/colab_deployment/publication_figures/reliable_confusion_matrix_summary.png"
+  ],
+  "frozen_artifact_root": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z",
+  "decision_overlay": "/home/ubuntu/colab_deployment/results/DECISION_PHEME_TEXT_ONLY_UNRESOLVED.json",
+  "verification_summary": {
+    "metrics_match_frozen_artifacts": true,
+    "excluded_runs_clearly_marked": true,
+    "pheme_tda_only_marked_weak": true,
+    "missing_checkpoint_files_documented": true,
+    "label_semantics_documented": true,
+    "package_suitable_for_manuscript_assembly_without_new_training": true
+  },
+  "excluded_runs": [
+    "twitter15/tda_only",
+    "pheme/text_only",
+    "pheme/hybrid"
+  ],
+  "weak_runs": [
+    "twitter16/tda_only",
+    "pheme/tda_only"
+  ],
+  "fixes_made": [
+    {
+      "file": "/home/ubuntu/colab_deployment/PUBLICATION_READY_EXECUTIVE_SUMMARY.md",
+      "reason": "Added explicit binary label semantics and unsupported-label caveat."
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_tables.md",
+      "reason": "Added table-level label semantics and precision policy note."
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/publication_tables.tex",
+      "reason": "Added LaTeX label-semantics note and explicit exclusion flags for failed runs."
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/FIGURE_PLAN.md",
+      "reason": "Added figure-interpretation caveat for failed and weak runs."
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/PAPER_READY_CLAIMS.md",
+      "reason": "Added explicit label-semantics wording to paper-ready claims."
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/SUBMISSION_CHECKLIST.md",
+      "reason": "Added checklist item for binary label-semantics documentation."
+    },
+    {
+      "file": "/home/ubuntu/colab_deployment/figures_manifest.json",
+      "reason": "Added global figure-manifest caveats for label semantics and failed-run rendering."
+    }
+  ],
+  "backups_created": [
+    "/home/ubuntu/colab_deployment/PUBLICATION_READY_EXECUTIVE_SUMMARY.md.auditbak_20260430T071432Z",
+    "/home/ubuntu/colab_deployment/publication_tables.md.auditbak_20260430T071432Z",
+    "/home/ubuntu/colab_deployment/publication_tables.tex.auditbak_20260430T071432Z",
+    "/home/ubuntu/colab_deployment/FIGURE_PLAN.md.auditbak_20260430T071432Z",
+    "/home/ubuntu/colab_deployment/PAPER_READY_CLAIMS.md.auditbak_20260430T071432Z",
+    "/home/ubuntu/colab_deployment/SUBMISSION_CHECKLIST.md.auditbak_20260430T071432Z",
+    "/home/ubuntu/colab_deployment/figures_manifest.json.auditbak_20260430T071432Z"
+  ],
+  "issues": [],
+  "warnings": [
+    "PHEME conclusions remain weak because only `pheme/tda_only` is non-collapsed and it shows severe recall imbalance.",
+    "Stored final-run classification reports predate later label-order cleanup, so publication claims should continue to rely on audited aggregate metrics, confusion matrices, and collapse diagnostics."
+  ],
+  "final_decision": "READY_FOR_MANUSCRIPT_ASSEMBLY",
+  "audit_note": "Initial parser-only discrepancy on pheme/hybrid macro-F1 was resolved by using the frozen report macro-avg value 0.3274 rather than recomputing from rounded class-level F1 values."
+}

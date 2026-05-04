@@ -1,0 +1,99 @@
+{
+  "multiple_variants_exist": true,
+  "processed_variants_found": [
+    {
+      "classification": "corrupted/invalid",
+      "issues": [
+        {
+          "error": "unreachable nodes: 6",
+          "root_id": "580357272104235008"
+        },
+        {
+          "error": "unreachable nodes: 4",
+          "root_id": "581022047490351104"
+        },
+        {
+          "error": "unreachable nodes: 3",
+          "root_id": "580347613163196416"
+        },
+        {
+          "error": "unreachable nodes: 4",
+          "root_id": "553506608203169792"
+        },
+        {
+          "error": "unreachable nodes: 7",
+          "root_id": "553501357156876290"
+        },
+        {
+          "error": "unreachable nodes: 10",
+          "root_id": "553576010898497536"
+        },
+        {
+          "error": "unreachable nodes: 2",
+          "root_id": "552810448324943872"
+        },
+        {
+          "error": "unreachable nodes: 3",
+          "root_id": "553470492565602305"
+        },
+        {
+          "error": "unreachable nodes: 2",
+          "root_id": "553531413459660800"
+        },
+        {
+          "error": "unreachable nodes: 24",
+          "root_id": "552805488631758849"
+        }
+      ],
+      "notes": [
+        "existing dataset preserved; not overwritten"
+      ],
+      "path": "/home/ubuntu/colab_deployment/data/pheme/processed"
+    },
+    {
+      "cascades": 330,
+      "class_distribution": {
+        "fake": 171,
+        "real": 159
+      },
+      "classification": "fully_processed",
+      "leakage_ok": true,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429"
+    }
+  ],
+  "raw_sources_found": [
+    {
+      "classification": "usable_raw_source",
+      "path": "/home/ubuntu/datasets/pheme_raw",
+      "variants": [
+        "6392078.zip",
+        "phemernrdataset.tar.bz2",
+        "phemerumourschemedataset.tar.bz2"
+      ]
+    },
+    {
+      "classification": "usable_raw_source",
+      "event_count": 9,
+      "path": "/home/ubuntu/colab_deployment/data/pheme/raw/pheme-rumour-scheme-dataset",
+      "thread_dirs_detected": 330
+    },
+    {
+      "classification": "usable_raw_source",
+      "notes": [
+        "non-rumour event corpus; not used for veracity-thread processing"
+      ],
+      "path": "/home/ubuntu/colab_deployment/data/pheme/raw/pheme-rnr-dataset",
+      "thread_dirs_detected": 0
+    },
+    {
+      "classification": "usable_raw_source",
+      "path": "/home/ubuntu/colab_deployment/data/pheme/raw/PHEME_veracity.tar.bz2"
+    }
+  ],
+  "recommended_training_dataset": "/home/ubuntu/colab_deployment/data/pheme/processed_ready_20260429",
+  "server": {
+    "host": "linux.ferdowsi.cloud",
+    "port": 2388,
+    "user": "ubuntu"
+  }
+}

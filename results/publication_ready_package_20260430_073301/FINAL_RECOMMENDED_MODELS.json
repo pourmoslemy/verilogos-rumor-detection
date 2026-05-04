@@ -1,0 +1,84 @@
+{
+  "datasets": {
+    "twitter15": {
+      "primary_model": "text_only",
+      "primary_artifact_dir": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter15/text_only",
+      "primary_results_path": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter15/text_only/results.json",
+      "primary_classification_report": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter15/text_only/classification_report.txt",
+      "primary_config_path": "/home/ubuntu/colab_deployment/results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter15_text_only.yaml",
+      "primary_checkpoint_path": null,
+      "selection_criterion": "scientific reliability first, then weighted F1, then macro F1, then recall balance",
+      "publication_safe": true,
+      "deployment_safe": true,
+      "recommendation_strength": "VALID",
+      "backup_model": "hybrid",
+      "backup_artifact_dir": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter15/hybrid",
+      "backup_results_path": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter15/hybrid/results.json",
+      "backup_config_path": "/home/ubuntu/colab_deployment/results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter15_hybrid.yaml",
+      "backup_checkpoint_path": null
+    },
+    "twitter16": {
+      "primary_model": "hybrid",
+      "primary_artifact_dir": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter16/hybrid",
+      "primary_results_path": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter16/hybrid/results.json",
+      "primary_classification_report": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter16/hybrid/classification_report.txt",
+      "primary_config_path": "/home/ubuntu/colab_deployment/results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter16_hybrid.yaml",
+      "primary_checkpoint_path": null,
+      "selection_criterion": "scientific reliability first, then weighted F1, then macro F1, then recall balance",
+      "publication_safe": true,
+      "deployment_safe": true,
+      "recommendation_strength": "VALID",
+      "backup_model": "text_only",
+      "backup_artifact_dir": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter16/text_only",
+      "backup_results_path": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter16/text_only/results.json",
+      "backup_config_path": "/home/ubuntu/colab_deployment/results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter16_text_only.yaml",
+      "backup_checkpoint_path": null
+    },
+    "pheme": {
+      "primary_model": "tda_only",
+      "primary_artifact_dir": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/pheme/tda_only",
+      "primary_results_path": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/pheme/tda_only/results.json",
+      "primary_classification_report": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/pheme/tda_only/classification_report.txt",
+      "primary_config_path": "/home/ubuntu/colab_deployment/results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_pheme_tda_only.yaml",
+      "primary_checkpoint_path": null,
+      "selection_criterion": "scientific reliability first, then weighted F1, then macro F1, then recall balance",
+      "publication_safe": true,
+      "deployment_safe": false,
+      "recommendation_strength": "WEAK BUT USABLE",
+      "backup_model": null,
+      "backup_artifact_dir": null,
+      "backup_results_path": null,
+      "backup_config_path": null,
+      "backup_checkpoint_path": null
+    }
+  },
+  "best_overall": {
+    "run": "twitter16/hybrid",
+    "artifact_dir": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter16/hybrid",
+    "results_path": "/home/ubuntu/colab_deployment/results/final_runs/20260429T142746Z/twitter16/hybrid/results.json",
+    "config_path": "/home/ubuntu/colab_deployment/results/readiness_rerun_20260429T142746Z/proposed_configs/proposed_twitter16_hybrid.yaml",
+    "checkpoint_path": null,
+    "weighted_f1": 0.8239323770491803,
+    "macro_f1": 0.8239,
+    "reliability": "VALID",
+    "selection_basis": "highest weighted F1 among non-collapsed runs under reliability-first policy"
+  },
+  "rankings": {
+    "scientific_reliability_first": [
+      "twitter16/hybrid",
+      "twitter15/text_only",
+      "twitter15/hybrid",
+      "twitter16/text_only",
+      "pheme/tda_only",
+      "twitter16/tda_only"
+    ],
+    "raw_weighted_f1_first": [
+      "twitter16/hybrid",
+      "twitter15/text_only",
+      "twitter15/hybrid",
+      "twitter16/text_only",
+      "pheme/tda_only",
+      "twitter16/tda_only"
+    ]
+  }
+}

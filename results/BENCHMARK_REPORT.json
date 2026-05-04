@@ -1,0 +1,934 @@
+{
+  "comparison": {
+    "legacy_avg_load_time_ms": 280.3865,
+    "legacy_avg_peak_memory_bytes": 252647.84,
+    "pheme_avg_load_time_ms": 25.37,
+    "pheme_avg_peak_memory_bytes": 148732.5
+  },
+  "formats": {
+    "legacy_acl2017": {
+      "files": [
+        {
+          "current_memory_bytes": 55752,
+          "edges": 211,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/265953285247209472.txt",
+          "load_time_ms": 174.1987,
+          "nodes": 212,
+          "peak_memory_bytes": 148869,
+          "root_id": "265953285247209472"
+        },
+        {
+          "current_memory_bytes": 122971,
+          "edges": 353,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/273182568298450945.txt",
+          "load_time_ms": 275.1622,
+          "nodes": 354,
+          "peak_memory_bytes": 230162,
+          "root_id": "273182568298450945"
+        },
+        {
+          "current_memory_bytes": 138399,
+          "edges": 385,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/273278761909239808.txt",
+          "load_time_ms": 296.0743,
+          "nodes": 386,
+          "peak_memory_bytes": 250707,
+          "root_id": "273278761909239808"
+        },
+        {
+          "current_memory_bytes": 47435,
+          "edges": 102,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/295152287901417472.txt",
+          "load_time_ms": 84.7333,
+          "nodes": 103,
+          "peak_memory_bytes": 128010,
+          "root_id": "295152287901417472"
+        },
+        {
+          "current_memory_bytes": 645553,
+          "edges": 1990,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/295944137948151809.txt",
+          "load_time_ms": 1603.9838,
+          "nodes": 1991,
+          "peak_memory_bytes": 1383113,
+          "root_id": "295944137948151809"
+        },
+        {
+          "current_memory_bytes": 464923,
+          "edges": 1329,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/318263294098030593.txt",
+          "load_time_ms": 1079.3694,
+          "nodes": 1330,
+          "peak_memory_bytes": 998332,
+          "root_id": "318263294098030593"
+        },
+        {
+          "current_memory_bytes": 51051,
+          "edges": 302,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/319166636902998016.txt",
+          "load_time_ms": 228.5337,
+          "nodes": 303,
+          "peak_memory_bytes": 171581,
+          "root_id": "319166636902998016"
+        },
+        {
+          "current_memory_bytes": 197021,
+          "edges": 722,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/326137285450018817.txt",
+          "load_time_ms": 559.731,
+          "nodes": 723,
+          "peak_memory_bytes": 403299,
+          "root_id": "326137285450018817"
+        },
+        {
+          "current_memory_bytes": 144618,
+          "edges": 623,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/334722003057647616.txt",
+          "load_time_ms": 493.3132,
+          "nodes": 624,
+          "peak_memory_bytes": 331452,
+          "root_id": "334722003057647616"
+        },
+        {
+          "current_memory_bytes": 149634,
+          "edges": 646,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/336873759271157760.txt",
+          "load_time_ms": 518.4094,
+          "nodes": 647,
+          "peak_memory_bytes": 352175,
+          "root_id": "336873759271157760"
+        },
+        {
+          "current_memory_bytes": 86142,
+          "edges": 243,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/336913656921083904.txt",
+          "load_time_ms": 180.6478,
+          "nodes": 244,
+          "peak_memory_bytes": 155198,
+          "root_id": "336913656921083904"
+        },
+        {
+          "current_memory_bytes": 57010,
+          "edges": 177,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/348203818741272576.txt",
+          "load_time_ms": 135.1251,
+          "nodes": 178,
+          "peak_memory_bytes": 146322,
+          "root_id": "348203818741272576"
+        },
+        {
+          "current_memory_bytes": 70567,
+          "edges": 177,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/348204426659508226.txt",
+          "load_time_ms": 160.6947,
+          "nodes": 178,
+          "peak_memory_bytes": 145961,
+          "root_id": "348204426659508226"
+        },
+        {
+          "current_memory_bytes": 59050,
+          "edges": 127,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/348209998565879810.txt",
+          "load_time_ms": 96.6768,
+          "nodes": 128,
+          "peak_memory_bytes": 127792,
+          "root_id": "348209998565879810"
+        },
+        {
+          "current_memory_bytes": 55787,
+          "edges": 120,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/351767344097398785.txt",
+          "load_time_ms": 88.851,
+          "nodes": 121,
+          "peak_memory_bytes": 129140,
+          "root_id": "351767344097398785"
+        },
+        {
+          "current_memory_bytes": 72975,
+          "edges": 258,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/352075672543428608.txt",
+          "load_time_ms": 188.6541,
+          "nodes": 259,
+          "peak_memory_bytes": 164045,
+          "root_id": "352075672543428608"
+        },
+        {
+          "current_memory_bytes": 49577,
+          "edges": 121,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/356268980211687424.txt",
+          "load_time_ms": 94.7906,
+          "nodes": 122,
+          "peak_memory_bytes": 128010,
+          "root_id": "356268980211687424"
+        },
+        {
+          "current_memory_bytes": 75967,
+          "edges": 218,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/356297080169447425.txt",
+          "load_time_ms": 169.258,
+          "nodes": 219,
+          "peak_memory_bytes": 149199,
+          "root_id": "356297080169447425"
+        },
+        {
+          "current_memory_bytes": 69010,
+          "edges": 130,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/356310469390245888.txt",
+          "load_time_ms": 96.6469,
+          "nodes": 131,
+          "peak_memory_bytes": 128304,
+          "root_id": "356310469390245888"
+        },
+        {
+          "current_memory_bytes": 52350,
+          "edges": 159,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/356407105953071107.txt",
+          "load_time_ms": 122.8299,
+          "nodes": 160,
+          "peak_memory_bytes": 140549,
+          "root_id": "356407105953071107"
+        },
+        {
+          "current_memory_bytes": 88484,
+          "edges": 109,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/356437941641416705.txt",
+          "load_time_ms": 95.4544,
+          "nodes": 110,
+          "peak_memory_bytes": 123892,
+          "root_id": "356437941641416705"
+        },
+        {
+          "current_memory_bytes": 29270,
+          "edges": 134,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/357299879070023680.txt",
+          "load_time_ms": 120.5559,
+          "nodes": 135,
+          "peak_memory_bytes": 134363,
+          "root_id": "357299879070023680"
+        },
+        {
+          "current_memory_bytes": 56890,
+          "edges": 137,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/357300409292959744.txt",
+          "load_time_ms": 113.9868,
+          "nodes": 138,
+          "peak_memory_bytes": 133526,
+          "root_id": "357300409292959744"
+        },
+        {
+          "current_memory_bytes": 62861,
+          "edges": 173,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/358591089462099968.txt",
+          "load_time_ms": 118.6637,
+          "nodes": 174,
+          "peak_memory_bytes": 143101,
+          "root_id": "358591089462099968"
+        },
+        {
+          "current_memory_bytes": 112607,
+          "edges": 310,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter15/tree/364383457545162754.txt",
+          "load_time_ms": 247.6958,
+          "nodes": 311,
+          "peak_memory_bytes": 217695,
+          "root_id": "364383457545162754"
+        },
+        {
+          "current_memory_bytes": 116921,
+          "edges": 266,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/498430783699554305.txt",
+          "load_time_ms": 210.3482,
+          "nodes": 267,
+          "peak_memory_bytes": 177732,
+          "root_id": "498430783699554305"
+        },
+        {
+          "current_memory_bytes": 30557,
+          "edges": 91,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/500378223977721856.txt",
+          "load_time_ms": 65.4325,
+          "nodes": 92,
+          "peak_memory_bytes": 126967,
+          "root_id": "500378223977721856"
+        },
+        {
+          "current_memory_bytes": 82691,
+          "edges": 108,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524922729485848576.txt",
+          "load_time_ms": 96.4016,
+          "nodes": 109,
+          "peak_memory_bytes": 125918,
+          "root_id": "524922729485848576"
+        },
+        {
+          "current_memory_bytes": 71511,
+          "edges": 157,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524923462398513152.txt",
+          "load_time_ms": 128.9208,
+          "nodes": 158,
+          "peak_memory_bytes": 137779,
+          "root_id": "524923462398513152"
+        },
+        {
+          "current_memory_bytes": 158167,
+          "edges": 356,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524923676484177920.txt",
+          "load_time_ms": 283.573,
+          "nodes": 357,
+          "peak_memory_bytes": 259897,
+          "root_id": "524923676484177920"
+        },
+        {
+          "current_memory_bytes": 71346,
+          "edges": 236,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524925050739490816.txt",
+          "load_time_ms": 185.0844,
+          "nodes": 237,
+          "peak_memory_bytes": 156691,
+          "root_id": "524925050739490816"
+        },
+        {
+          "current_memory_bytes": 161436,
+          "edges": 527,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524925215235911680.txt",
+          "load_time_ms": 401.8738,
+          "nodes": 528,
+          "peak_memory_bytes": 299111,
+          "root_id": "524925215235911680"
+        },
+        {
+          "current_memory_bytes": 62710,
+          "edges": 139,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524925987239120897.txt",
+          "load_time_ms": 114.1785,
+          "nodes": 140,
+          "peak_memory_bytes": 130189,
+          "root_id": "524925987239120897"
+        },
+        {
+          "current_memory_bytes": 86466,
+          "edges": 122,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524926235030589440.txt",
+          "load_time_ms": 101.6481,
+          "nodes": 123,
+          "peak_memory_bytes": 126737,
+          "root_id": "524926235030589440"
+        },
+        {
+          "current_memory_bytes": 82576,
+          "edges": 161,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524931324763992064.txt",
+          "load_time_ms": 128.6647,
+          "nodes": 162,
+          "peak_memory_bytes": 137832,
+          "root_id": "524931324763992064"
+        },
+        {
+          "current_memory_bytes": 40747,
+          "edges": 219,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524932935137628160.txt",
+          "load_time_ms": 186.2597,
+          "nodes": 220,
+          "peak_memory_bytes": 161228,
+          "root_id": "524932935137628160"
+        },
+        {
+          "current_memory_bytes": 75315,
+          "edges": 112,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524935485370929152.txt",
+          "load_time_ms": 95.3343,
+          "nodes": 113,
+          "peak_memory_bytes": 126687,
+          "root_id": "524935485370929152"
+        },
+        {
+          "current_memory_bytes": 495058,
+          "edges": 1361,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524936872666353664.txt",
+          "load_time_ms": 1110.7257,
+          "nodes": 1362,
+          "peak_memory_bytes": 1035300,
+          "root_id": "524936872666353664"
+        },
+        {
+          "current_memory_bytes": 64881,
+          "edges": 102,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524941132237910016.txt",
+          "load_time_ms": 71.822,
+          "nodes": 103,
+          "peak_memory_bytes": 125088,
+          "root_id": "524941132237910016"
+        },
+        {
+          "current_memory_bytes": 44680,
+          "edges": 94,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524942470472548352.txt",
+          "load_time_ms": 68.8682,
+          "nodes": 95,
+          "peak_memory_bytes": 127340,
+          "root_id": "524942470472548352"
+        },
+        {
+          "current_memory_bytes": 243263,
+          "edges": 806,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524943490887991296.txt",
+          "load_time_ms": 606.7801,
+          "nodes": 807,
+          "peak_memory_bytes": 466904,
+          "root_id": "524943490887991296"
+        },
+        {
+          "current_memory_bytes": 253706,
+          "edges": 886,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524944399890124801.txt",
+          "load_time_ms": 710.8142,
+          "nodes": 887,
+          "peak_memory_bytes": 515927,
+          "root_id": "524944399890124801"
+        },
+        {
+          "current_memory_bytes": 42427,
+          "edges": 126,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524947674164760577.txt",
+          "load_time_ms": 98.2019,
+          "nodes": 127,
+          "peak_memory_bytes": 133096,
+          "root_id": "524947674164760577"
+        },
+        {
+          "current_memory_bytes": 266444,
+          "edges": 976,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524952883343925249.txt",
+          "load_time_ms": 783.6742,
+          "nodes": 977,
+          "peak_memory_bytes": 566219,
+          "root_id": "524952883343925249"
+        },
+        {
+          "current_memory_bytes": 151355,
+          "edges": 385,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524959809402331137.txt",
+          "load_time_ms": 291.8435,
+          "nodes": 386,
+          "peak_memory_bytes": 266193,
+          "root_id": "524959809402331137"
+        },
+        {
+          "current_memory_bytes": 71745,
+          "edges": 177,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524962142563610625.txt",
+          "load_time_ms": 139.7313,
+          "nodes": 178,
+          "peak_memory_bytes": 150076,
+          "root_id": "524962142563610625"
+        },
+        {
+          "current_memory_bytes": 90487,
+          "edges": 160,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524965775036387329.txt",
+          "load_time_ms": 127.6702,
+          "nodes": 161,
+          "peak_memory_bytes": 135278,
+          "root_id": "524965775036387329"
+        },
+        {
+          "current_memory_bytes": 83223,
+          "edges": 130,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524966904885428226.txt",
+          "load_time_ms": 93.2381,
+          "nodes": 131,
+          "peak_memory_bytes": 125292,
+          "root_id": "524966904885428226"
+        },
+        {
+          "current_memory_bytes": 124619,
+          "edges": 377,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524969201102901248.txt",
+          "load_time_ms": 303.6673,
+          "nodes": 378,
+          "peak_memory_bytes": 235634,
+          "root_id": "524969201102901248"
+        },
+        {
+          "current_memory_bytes": 112491,
+          "edges": 371,
+          "file": "/mnt/d/verilogos/historical_data/rumor_detection_acl2017/twitter16/tree/524975705206304769.txt",
+          "load_time_ms": 270.5273,
+          "nodes": 372,
+          "peak_memory_bytes": 218480,
+          "root_id": "524975705206304769"
+        }
+      ],
+      "format": "legacy_acl2017",
+      "summary": {
+        "avg_load_time_ms": 280.3865,
+        "avg_peak_memory_bytes": 252647.84,
+        "count": 50,
+        "max_peak_memory_bytes": 1383113,
+        "median_load_time_ms": 164.9764
+      }
+    },
+    "pheme_tab": {
+      "files": [
+        {
+          "current_memory_bytes": 47234,
+          "edges": 211,
+          "file": "/tmp/tmppi2usk93/265953285247209472.txt",
+          "load_time_ms": 16.2322,
+          "nodes": 212,
+          "peak_memory_bytes": 68002,
+          "root_id": "265953285247209472"
+        },
+        {
+          "current_memory_bytes": 99313,
+          "edges": 353,
+          "file": "/tmp/tmppi2usk93/273182568298450945.txt",
+          "load_time_ms": 22.4337,
+          "nodes": 354,
+          "peak_memory_bytes": 176721,
+          "root_id": "273182568298450945"
+        },
+        {
+          "current_memory_bytes": 103550,
+          "edges": 385,
+          "file": "/tmp/tmppi2usk93/273278761909239808.txt",
+          "load_time_ms": 28.4874,
+          "nodes": 386,
+          "peak_memory_bytes": 180958,
+          "root_id": "273278761909239808"
+        },
+        {
+          "current_memory_bytes": 28301,
+          "edges": 102,
+          "file": "/tmp/tmppi2usk93/295152287901417472.txt",
+          "load_time_ms": 9.4454,
+          "nodes": 103,
+          "peak_memory_bytes": 48077,
+          "root_id": "295152287901417472"
+        },
+        {
+          "current_memory_bytes": 624578,
+          "edges": 1990,
+          "file": "/tmp/tmppi2usk93/295944137948151809.txt",
+          "load_time_ms": 146.2703,
+          "nodes": 1991,
+          "peak_memory_bytes": 936098,
+          "root_id": "295944137948151809"
+        },
+        {
+          "current_memory_bytes": 411483,
+          "edges": 1329,
+          "file": "/tmp/tmppi2usk93/318263294098030593.txt",
+          "load_time_ms": 89.7567,
+          "nodes": 1330,
+          "peak_memory_bytes": 718107,
+          "root_id": "318263294098030593"
+        },
+        {
+          "current_memory_bytes": 64300,
+          "edges": 302,
+          "file": "/tmp/tmppi2usk93/319166636902998016.txt",
+          "load_time_ms": 17.3466,
+          "nodes": 303,
+          "peak_memory_bytes": 85676,
+          "root_id": "319166636902998016"
+        },
+        {
+          "current_memory_bytes": 176953,
+          "edges": 722,
+          "file": "/tmp/tmppi2usk93/326137285450018817.txt",
+          "load_time_ms": 48.0313,
+          "nodes": 723,
+          "peak_memory_bytes": 257241,
+          "root_id": "326137285450018817"
+        },
+        {
+          "current_memory_bytes": 137703,
+          "edges": 623,
+          "file": "/tmp/tmppi2usk93/334722003057647616.txt",
+          "load_time_ms": 33.2395,
+          "nodes": 624,
+          "peak_memory_bytes": 217287,
+          "root_id": "334722003057647616"
+        },
+        {
+          "current_memory_bytes": 143738,
+          "edges": 646,
+          "file": "/tmp/tmppi2usk93/336873759271157760.txt",
+          "load_time_ms": 38.424,
+          "nodes": 647,
+          "peak_memory_bytes": 223322,
+          "root_id": "336873759271157760"
+        },
+        {
+          "current_memory_bytes": 51327,
+          "edges": 243,
+          "file": "/tmp/tmppi2usk93/336913656921083904.txt",
+          "load_time_ms": 19.5775,
+          "nodes": 244,
+          "peak_memory_bytes": 72383,
+          "root_id": "336913656921083904"
+        },
+        {
+          "current_memory_bytes": 43436,
+          "edges": 177,
+          "file": "/tmp/tmppi2usk93/348203818741272576.txt",
+          "load_time_ms": 14.3229,
+          "nodes": 178,
+          "peak_memory_bytes": 63948,
+          "root_id": "348203818741272576"
+        },
+        {
+          "current_memory_bytes": 45085,
+          "edges": 177,
+          "file": "/tmp/tmppi2usk93/348204426659508226.txt",
+          "load_time_ms": 14.5918,
+          "nodes": 178,
+          "peak_memory_bytes": 65597,
+          "root_id": "348204426659508226"
+        },
+        {
+          "current_memory_bytes": 31791,
+          "edges": 127,
+          "file": "/tmp/tmppi2usk93/348209998565879810.txt",
+          "load_time_ms": 10.5042,
+          "nodes": 128,
+          "peak_memory_bytes": 51727,
+          "root_id": "348209998565879810"
+        },
+        {
+          "current_memory_bytes": 31317,
+          "edges": 120,
+          "file": "/tmp/tmppi2usk93/351767344097398785.txt",
+          "load_time_ms": 11.3701,
+          "nodes": 121,
+          "peak_memory_bytes": 51253,
+          "root_id": "351767344097398785"
+        },
+        {
+          "current_memory_bytes": 54160,
+          "edges": 258,
+          "file": "/tmp/tmppi2usk93/352075672543428608.txt",
+          "load_time_ms": 15.7528,
+          "nodes": 259,
+          "peak_memory_bytes": 75216,
+          "root_id": "352075672543428608"
+        },
+        {
+          "current_memory_bytes": 34542,
+          "edges": 121,
+          "file": "/tmp/tmppi2usk93/356268980211687424.txt",
+          "load_time_ms": 12.9209,
+          "nodes": 122,
+          "peak_memory_bytes": 54478,
+          "root_id": "356268980211687424"
+        },
+        {
+          "current_memory_bytes": 54780,
+          "edges": 218,
+          "file": "/tmp/tmppi2usk93/356297080169447425.txt",
+          "load_time_ms": 13.6671,
+          "nodes": 219,
+          "peak_memory_bytes": 75548,
+          "root_id": "356297080169447425"
+        },
+        {
+          "current_memory_bytes": 33975,
+          "edges": 130,
+          "file": "/tmp/tmppi2usk93/356310469390245888.txt",
+          "load_time_ms": 10.5932,
+          "nodes": 131,
+          "peak_memory_bytes": 54071,
+          "root_id": "356310469390245888"
+        },
+        {
+          "current_memory_bytes": 38868,
+          "edges": 159,
+          "file": "/tmp/tmppi2usk93/356407105953071107.txt",
+          "load_time_ms": 11.6273,
+          "nodes": 160,
+          "peak_memory_bytes": 59156,
+          "root_id": "356407105953071107"
+        },
+        {
+          "current_memory_bytes": 32708,
+          "edges": 109,
+          "file": "/tmp/tmppi2usk93/356437941641416705.txt",
+          "load_time_ms": 9.8598,
+          "nodes": 110,
+          "peak_memory_bytes": 52644,
+          "root_id": "356437941641416705"
+        },
+        {
+          "current_memory_bytes": 33893,
+          "edges": 134,
+          "file": "/tmp/tmppi2usk93/357299879070023680.txt",
+          "load_time_ms": 7.5056,
+          "nodes": 135,
+          "peak_memory_bytes": 53989,
+          "root_id": "357299879070023680"
+        },
+        {
+          "current_memory_bytes": 35592,
+          "edges": 137,
+          "file": "/tmp/tmppi2usk93/357300409292959744.txt",
+          "load_time_ms": 6.8789,
+          "nodes": 138,
+          "peak_memory_bytes": 55688,
+          "root_id": "357300409292959744"
+        },
+        {
+          "current_memory_bytes": 41575,
+          "edges": 173,
+          "file": "/tmp/tmppi2usk93/358591089462099968.txt",
+          "load_time_ms": 10.5692,
+          "nodes": 174,
+          "peak_memory_bytes": 62087,
+          "root_id": "358591089462099968"
+        },
+        {
+          "current_memory_bytes": 86993,
+          "edges": 310,
+          "file": "/tmp/tmppi2usk93/364383457545162754.txt",
+          "load_time_ms": 17.5882,
+          "nodes": 311,
+          "peak_memory_bytes": 164017,
+          "root_id": "364383457545162754"
+        },
+        {
+          "current_memory_bytes": 61648,
+          "edges": 266,
+          "file": "/tmp/tmppi2usk93/498430783699554305.txt",
+          "load_time_ms": 15.5506,
+          "nodes": 267,
+          "peak_memory_bytes": 82704,
+          "root_id": "498430783699554305"
+        },
+        {
+          "current_memory_bytes": 26715,
+          "edges": 91,
+          "file": "/tmp/tmppi2usk93/500378223977721856.txt",
+          "load_time_ms": 9.3909,
+          "nodes": 92,
+          "peak_memory_bytes": 46363,
+          "root_id": "500378223977721856"
+        },
+        {
+          "current_memory_bytes": 31002,
+          "edges": 108,
+          "file": "/tmp/tmppi2usk93/524922729485848576.txt",
+          "load_time_ms": 9.115,
+          "nodes": 109,
+          "peak_memory_bytes": 50778,
+          "root_id": "524922729485848576"
+        },
+        {
+          "current_memory_bytes": 39079,
+          "edges": 157,
+          "file": "/tmp/tmppi2usk93/524923462398513152.txt",
+          "load_time_ms": 10.6581,
+          "nodes": 158,
+          "peak_memory_bytes": 59367,
+          "root_id": "524923462398513152"
+        },
+        {
+          "current_memory_bytes": 110908,
+          "edges": 356,
+          "file": "/tmp/tmppi2usk93/524923676484177920.txt",
+          "load_time_ms": 27.9471,
+          "nodes": 357,
+          "peak_memory_bytes": 188316,
+          "root_id": "524923676484177920"
+        },
+        {
+          "current_memory_bytes": 54098,
+          "edges": 236,
+          "file": "/tmp/tmppi2usk93/524925050739490816.txt",
+          "load_time_ms": 20.2558,
+          "nodes": 237,
+          "peak_memory_bytes": 75154,
+          "root_id": "524925050739490816"
+        },
+        {
+          "current_memory_bytes": 131051,
+          "edges": 527,
+          "file": "/tmp/tmppi2usk93/524925215235911680.txt",
+          "load_time_ms": 34.5015,
+          "nodes": 528,
+          "peak_memory_bytes": 209995,
+          "root_id": "524925215235911680"
+        },
+        {
+          "current_memory_bytes": 35076,
+          "edges": 139,
+          "file": "/tmp/tmppi2usk93/524925987239120897.txt",
+          "load_time_ms": 12.127,
+          "nodes": 140,
+          "peak_memory_bytes": 55172,
+          "root_id": "524925987239120897"
+        },
+        {
+          "current_memory_bytes": 32406,
+          "edges": 122,
+          "file": "/tmp/tmppi2usk93/524926235030589440.txt",
+          "load_time_ms": 10.3712,
+          "nodes": 123,
+          "peak_memory_bytes": 52342,
+          "root_id": "524926235030589440"
+        },
+        {
+          "current_memory_bytes": 40346,
+          "edges": 161,
+          "file": "/tmp/tmppi2usk93/524931324763992064.txt",
+          "load_time_ms": 15.6671,
+          "nodes": 162,
+          "peak_memory_bytes": 60634,
+          "root_id": "524931324763992064"
+        },
+        {
+          "current_memory_bytes": 50784,
+          "edges": 219,
+          "file": "/tmp/tmppi2usk93/524932935137628160.txt",
+          "load_time_ms": 17.0036,
+          "nodes": 220,
+          "peak_memory_bytes": 71552,
+          "root_id": "524932935137628160"
+        },
+        {
+          "current_memory_bytes": 32087,
+          "edges": 112,
+          "file": "/tmp/tmppi2usk93/524935485370929152.txt",
+          "load_time_ms": 8.2618,
+          "nodes": 113,
+          "peak_memory_bytes": 52023,
+          "root_id": "524935485370929152"
+        },
+        {
+          "current_memory_bytes": 425211,
+          "edges": 1361,
+          "file": "/tmp/tmppi2usk93/524936872666353664.txt",
+          "load_time_ms": 100.1552,
+          "nodes": 1362,
+          "peak_memory_bytes": 731835,
+          "root_id": "524936872666353664"
+        },
+        {
+          "current_memory_bytes": 29582,
+          "edges": 102,
+          "file": "/tmp/tmppi2usk93/524941132237910016.txt",
+          "load_time_ms": 7.4754,
+          "nodes": 103,
+          "peak_memory_bytes": 49358,
+          "root_id": "524941132237910016"
+        },
+        {
+          "current_memory_bytes": 28625,
+          "edges": 94,
+          "file": "/tmp/tmppi2usk93/524942470472548352.txt",
+          "load_time_ms": 6.5357,
+          "nodes": 95,
+          "peak_memory_bytes": 48401,
+          "root_id": "524942470472548352"
+        },
+        {
+          "current_memory_bytes": 201323,
+          "edges": 806,
+          "file": "/tmp/tmppi2usk93/524943490887991296.txt",
+          "load_time_ms": 58.7521,
+          "nodes": 807,
+          "peak_memory_bytes": 282411,
+          "root_id": "524943490887991296"
+        },
+        {
+          "current_memory_bytes": 231802,
+          "edges": 886,
+          "file": "/tmp/tmppi2usk93/524944399890124801.txt",
+          "load_time_ms": 70.3067,
+          "nodes": 887,
+          "peak_memory_bytes": 313786,
+          "root_id": "524944399890124801"
+        },
+        {
+          "current_memory_bytes": 36676,
+          "edges": 126,
+          "file": "/tmp/tmppi2usk93/524947674164760577.txt",
+          "load_time_ms": 12.6994,
+          "nodes": 127,
+          "peak_memory_bytes": 56612,
+          "root_id": "524947674164760577"
+        },
+        {
+          "current_memory_bytes": 211170,
+          "edges": 976,
+          "file": "/tmp/tmppi2usk93/524952883343925249.txt",
+          "load_time_ms": 70.0422,
+          "nodes": 977,
+          "peak_memory_bytes": 294178,
+          "root_id": "524952883343925249"
+        },
+        {
+          "current_memory_bytes": 104694,
+          "edges": 385,
+          "file": "/tmp/tmppi2usk93/524959809402331137.txt",
+          "load_time_ms": 28.1326,
+          "nodes": 386,
+          "peak_memory_bytes": 182102,
+          "root_id": "524959809402331137"
+        },
+        {
+          "current_memory_bytes": 45968,
+          "edges": 177,
+          "file": "/tmp/tmppi2usk93/524962142563610625.txt",
+          "load_time_ms": 10.3522,
+          "nodes": 178,
+          "peak_memory_bytes": 66480,
+          "root_id": "524962142563610625"
+        },
+        {
+          "current_memory_bytes": 40559,
+          "edges": 160,
+          "file": "/tmp/tmppi2usk93/524965775036387329.txt",
+          "load_time_ms": 7.7358,
+          "nodes": 161,
+          "peak_memory_bytes": 60847,
+          "root_id": "524965775036387329"
+        },
+        {
+          "current_memory_bytes": 33517,
+          "edges": 130,
+          "file": "/tmp/tmppi2usk93/524966904885428226.txt",
+          "load_time_ms": 13.3389,
+          "nodes": 131,
+          "peak_memory_bytes": 53613,
+          "root_id": "524966904885428226"
+        },
+        {
+          "current_memory_bytes": 107572,
+          "edges": 377,
+          "file": "/tmp/tmppi2usk93/524969201102901248.txt",
+          "load_time_ms": 28.5008,
+          "nodes": 378,
+          "peak_memory_bytes": 184980,
+          "root_id": "524969201102901248"
+        },
+        {
+          "current_memory_bytes": 106923,
+          "edges": 371,
+          "file": "/tmp/tmppi2usk93/524975705206304769.txt",
+          "load_time_ms": 26.6252,
+          "nodes": 372,
+          "peak_memory_bytes": 184331,
+          "root_id": "524975705206304769"
+        }
+      ],
+      "format": "pheme_tab",
+      "summary": {
+        "avg_load_time_ms": 25.37,
+        "avg_peak_memory_bytes": 148732.5,
+        "count": 50,
+        "max_peak_memory_bytes": 936098,
+        "median_load_time_ms": 15.0712
+      }
+    }
+  }
+}
